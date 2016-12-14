@@ -1,0 +1,44 @@
+{
+  "Tiles": {
+    "Tile": [
+      {
+        // TODO: DeconstructionJob
+        "type": "Empty",
+        "Name": "Empty",
+        "Description": "This is a empty tile.",
+        "BaseMovementCost": "1",
+        "LinksToNeighbours": "false",
+        "BuildingJob": { "jobTime": "0" },
+        "LocalizationCode": "tile_Empty",
+        "UnlocalizedDescription": "tile_Empty_desc"
+      },
+      {
+        "type": "Floor",
+        "Name": "Floor",
+        "Description": "This is a floor tile.",
+        "BaseMovementCost": "1",
+        "LinksToNeighbours": "false",
+        "BuildingJob": { "jobTime": "0.1" },
+        "LocalizationCode": "tile_Floor",
+        "UnlocalizedDescription": "tile_Floor_desc"
+      },
+      {
+        "type": "Ladder",
+        "Name": "Ladder",
+        "Description": "This is a ladder tile.",
+        "BaseMovementCost": "1.5",
+        "LinksToNeighbours": "false",
+        "CanPlaceHere": { "functionName": "CanBuildHere_Ladder" },
+        "BuildingJob": {
+          "jobTime": "0.5",
+          "Inventory": {
+            "type": "Steel Plate",
+            "amount": "1"
+          }
+        },
+        "LocalizationCode": "tile_Ladder",
+        "UnlocalizedDescription": "tile_Ladder_desc"
+      }
+    ]
+  }
+}
