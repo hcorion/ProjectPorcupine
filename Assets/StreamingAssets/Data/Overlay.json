@@ -1,0 +1,38 @@
+[
+   {
+      "min": "0",
+      "max": "1",
+      "colorMap": "Jet",
+      "#text": "oxygenValueAt"
+   },
+   {
+      "min": "0",
+      "max": "1",
+      "colorMap": "Random",
+      "#text": "roomNumberValueAt"
+   },
+   {
+      "min": "0",
+      "max": "1",
+      "colorMap": "Jet",
+      "#text": "powerValueAt"
+   },
+   {
+      "min": "0",
+      "max": "1",
+      "colorMap": "Jet",
+      "#text": "temperatureValueAt"
+   },
+   {
+      "min": "0",
+      "max": "1",
+      "colorMap": "Jet",
+      "#text": "thermalDiffusivityValueAt"
+   },
+   {
+      "min": "0",
+      "max": "1",
+      "colorMap": "Jet",
+      "#text": "heatGenerationValueAt"
+   }
+]

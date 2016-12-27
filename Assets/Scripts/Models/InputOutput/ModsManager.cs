@@ -79,7 +79,7 @@ public class ModsManager
 
         LoadFunctions("FurnitureFunctions.cs", "Furniture");
 
-        LoadPrototypes("Tiles.xml", PrototypeManager.TileType.LoadPrototypes);
+        LoadPrototypes("Tiles.json", PrototypeManager.TileType.LoadPrototypes);
         LoadPrototypes("Furniture.xml", PrototypeManager.Furniture.LoadPrototypes);
         LoadPrototypes("Utility.xml", PrototypeManager.Utility.LoadPrototypes);
         LoadPrototypes("RoomBehavior.xml", (text) => PrototypeManager.RoomBehavior.LoadPrototypes(text));
@@ -117,8 +117,8 @@ public class ModsManager
 
         // We are only allowing the settings menu to be in C# due to class requirements
         LoadFunctions("SettingsMenuFunctions.cs", "SettingsMenu");
-        LoadPrototypes("ConsoleCommands.xml", PrototypeManager.DevConsole.LoadPrototypes);
-        LoadPrototypes("SettingsTemplate.xml", PrototypeManager.SettingsCategories.LoadPrototypes);
+        //LoadPrototypes("ConsoleCommands.xml", PrototypeManager.DevConsole.LoadPrototypes);
+        //LoadPrototypes("SettingsTemplate.xml", PrototypeManager.SettingsCategories.LoadPrototypes);
     }
 
     /// <summary>

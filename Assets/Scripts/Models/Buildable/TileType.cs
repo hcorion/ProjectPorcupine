@@ -167,6 +167,12 @@ public class TileType : IPrototypable, IEquatable<TileType>
         return false;
     }
 
+    public void ReadJsonPrototype<T>(T item)
+    {
+        //JsonConvert.SerializeObject(product);
+        //this
+    }
+
     /// <summary>
     /// Reads the prototype from the specified XML reader.
     /// </summary>

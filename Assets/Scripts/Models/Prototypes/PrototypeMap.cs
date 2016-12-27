@@ -13,6 +13,7 @@ using System.IO;
 using System.Linq;
 using System.Xml;
 using UnityEngine;
+using Newtonsoft.Json;
 
 /// <summary>
 /// A class that holds prototypes to be used later.
@@ -144,9 +145,16 @@ public class PrototypeMap<T> where T : IPrototypable, new()
     /// Loads all the prototypes from the specified text.
     /// </summary>
     /// <param name="xmlText">Xml text to parse.</param>
-    public void LoadPrototypes(string xmlText)
+    public void LoadPrototypes(string jsonText)
     {
-        XmlTextReader reader = new XmlTextReader(new StringReader(xmlText));
+        List<T> test = JsonConvert.DeserializeObject<List<T>>(jsonText);
+        foreach (T item in test)
+        {
+            Set(item);
+            //T prototype = item;
+            //prototype.ReadJsonPrototype(item);
+        }
+        /*JsonTextReader reader = new JsonTextReader(new StringReader(jsonText));
 
         if (reader.ReadToDescendant(listTag))
         {
@@ -166,14 +174,14 @@ public class PrototypeMap<T> where T : IPrototypable, new()
         else
         {
             UnityDebugger.Debugger.LogError("PrototypeMap", "Did not find a '" + listTag + "' element in the prototype definition file.");
-        }
+        }*/
     }
 
     /// <summary>
     /// Loads a single prototype.
     /// </summary>
     /// <param name="reader">The Xml Reader.</param>
-    private void LoadPrototype(XmlReader reader)
+    private void LoadPrototype(XmlTextReader reader)
     {
         T prototype = new T();
         try

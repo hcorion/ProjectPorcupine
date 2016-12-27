@@ -1,6 +1,4 @@
-{
-  "Tiles": {
-    "Tile": [
+[
       {
         // TODO: DeconstructionJob
         "type": "Empty",
@@ -40,5 +38,3 @@
         "UnlocalizedDescription": "tile_Ladder_desc"
       }
     ]
-  }
-}

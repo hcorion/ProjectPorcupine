@@ -1,0 +1,25 @@
+[
+   {
+      "Name": "Oxygen",
+      "GrowthRate": "0.3",
+      "RestoreNeedFurnitureType": "oxygen_generator",
+      "RestoreNeedTime": "10",
+      "RestoreNeedAmount": "100",
+      "Damage": "20",
+      "CompleteOnFail": "false",
+      "HighToLow": "true",
+      "Action": {
+         "event": "OnUpdate",
+         "functionName": "OnUpdate_Oxygen"
+      },
+      "Localization": "need_oxygen"
+   },
+   {
+      "Name": "Sleep",
+      "RestoreNeedFurnitureType": "simple_bed",
+      "GrowthRate": "0.15",
+      "RestoreNeedTime": "30",
+      "RestoreNeedAmount": "100",
+      "Localization": "need_sleep"
+   }
+]

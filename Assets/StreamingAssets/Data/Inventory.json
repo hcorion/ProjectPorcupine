@@ -1,0 +1,42 @@
+﻿[
+   {
+      "maxStackSize": "50",
+      "basePrice": "0.8",
+      "category": "inv_cat_raw"
+   },
+   {
+      "maxStackSize": "10",
+      "basePrice": "1.2",
+      "category": "inv_cat_raw"
+   },
+   {
+      "maxStackSize": "50",
+      "basePrice": "0.8",
+      "category": "inv_cat_raw"
+   },
+   {
+      "maxStackSize": "20",
+      "basePrice": "3",
+      "category": "inv_cat_raw"
+   },
+   {
+      "maxStackSize": "50",
+      "basePrice": "1.5",
+      "category": "inv_cat_refined"
+   },
+   {
+      "maxStackSize": "5",
+      "basePrice": "5",
+      "category": "inv_cat_crafted"
+   },
+   {
+      "maxStackSize": "50",
+      "basePrice": "1.5",
+      "category": "inv_cat_refined"
+   },
+   {
+      "maxStackSize": "50",
+      "basePrice": "2",
+      "category": "inv_cat_refined"
+   }
+]

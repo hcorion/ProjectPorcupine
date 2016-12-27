@@ -1,0 +1,95 @@
+﻿[
+   {
+      "potentialNames": [
+         "Wire Inc.",
+         "Connectron Corp."
+      ],
+      "currencyName": "Quill Corp Bucks",
+      "minCurrencyBalance": "1000",
+      "maxCurrencyBalance": "5000",
+      "minSaleMarginMultiplier": "1.2",
+      "maxSaleMarginMultiplier": "1.5",
+      "potentialStock": {
+         "Inventory": {
+            "category": "inv_cat_raw",
+            "rarity": "0",
+            "minQuantity": "100",
+            "maxQuantity": "150"
+         }
+      },
+      "Animations": [
+         {
+            "state": "idle",
+            "fps": "1",
+            "looping": "false",
+            "Frame": {
+               "name": "BasicHaulShip"
+            }
+         },
+         {
+            "state": "flying",
+            "fps": "4",
+            "looping": "true",
+            "Frame": [
+               {
+                  "name": "BasicHaulShip_01"
+               },
+               {
+                  "name": "BasicHaulShip_02"
+               }
+            ]
+         }
+      ]
+   },
+   {
+      "potentialNames": [
+         "Raw Depot",
+         "Miners Delight"
+      ],
+      "currencyName": "Inter-Galactic Credits",
+      "minCurrencyBalance": "200",
+      "maxCurrencyBalance": "1500",
+      "minSaleMarginMultiplier": "1.2",
+      "maxSaleMarginMultiplier": "1.3",
+      "potentialStock": [
+         {
+            "rarity": "0.1",
+            "minQuantity": "100",
+            "maxQuantity": "150"
+         },
+         {
+            "rarity": "0.3",
+            "minQuantity": "2000",
+            "maxQuantity": "3000"
+         },
+         {
+            "rarity": "0.8",
+            "minQuantity": "1000",
+            "maxQuantity": "2500"
+         }
+      ],
+      "Animations": [
+         {
+            "state": "idle",
+            "fps": "1",
+            "looping": "false",
+            "Frame": {
+               "name": "BasicHaulShip"
+            }
+         },
+         {
+            "state": "flying",
+            "fps": "4",
+            "looping": "true",
+            "Frame": [
+               {
+                  "name": "BasicHaulShip_01"
+               },
+               {
+                  "name": "BasicHaulShip_02"
+               }
+            ]
+         }
+      ]
+   }
+]

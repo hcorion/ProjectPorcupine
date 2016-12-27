@@ -1,0 +1,26 @@
+﻿[
+         {
+            "type": "Strength",
+            "name": "Strength"
+         },
+         {
+            "type": "Dexterity",
+            "name": "Dexterity"
+         },
+         {
+            "type": "Constitution",
+            "name": "Constitution"
+         },
+         {
+            "type": "Intelligence",
+            "name": "Intelligence"
+         },
+         {
+            "type": "Wisdom",
+            "name": "Wisdom"
+         },
+         {
+            "type": "Charisma",
+            "name": "Charisma"
+         }
+      ]

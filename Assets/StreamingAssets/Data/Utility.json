@@ -1,0 +1,64 @@
+[
+   {
+      "Name": "Power Cables",
+      "Description": "This is a power cable.",
+      "TypeTag": "Power",
+      "OrderAction": [
+         {
+            "Job": {
+               "time": "1"
+            },
+            "Inventory": {
+               "amount": "2"
+            }
+         },
+         {
+            "Job": {
+               "time": "1"
+            },
+            "Inventory": {
+               "amount": "1"
+            }
+         }
+      ],
+      "ContextMenuAction": [
+         {
+            "FunctionName": "UtilityContextTest1",
+            "Text": "Test Context 1",
+            "RequireCharacterSelected": "false"
+         },
+         {
+            "FunctionName": "UtilityContextTest2",
+            "Text": "Test Context 2",
+            "RequireCharacterSelected": "false"
+         }
+      ],
+      "LocalizationCode": "util_power_cable",
+      "UnlocalizedDescription": "util_power_cable_desc"
+   },
+   {
+      "Name": "Water Pipe",
+      "Description": "This is a water pipe.",
+      "TypeTag": "Water",
+      "OrderAction": [
+         {
+            "Job": {
+               "time": "1"
+            },
+            "Inventory": {
+               "amount": "2"
+            }
+         },
+         {
+            "Job": {
+               "time": "1"
+            },
+            "Inventory": {
+               "amount": "1"
+            }
+         }
+      ],
+      "LocalizationCode": "util_water_pipe",
+      "UnlocalizedDescription": "util_water_pipe_desc"
+   }
+]
